@@ -30,9 +30,11 @@ $(function() {
 
 	$("#comment").click(function() {
 		if(isComment) {
+			$("#comment").html("∨ 댓글 (8)");
 			$("#commentDiv").hide(500);
 			isComment = false;
 		} else {
+			$("#comment").html("∧ 댓글 (8)");
 			$("#commentDiv").show(500);
 			isComment = true;
 		}
