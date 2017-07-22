@@ -4,6 +4,9 @@
 	* { margin: 0px; padding: 0px; font-family: 'Noto Sans KR', sans-serif; }
 
 	hr { width: 60%; }
+	textarea { width: 100% !important; margin: 10px 0 0 0 !important; }
+	
+	#submitBtn { float: right; margin-bottom: 10px; }
 
 	#header { width: 60%; height: 200px; margin-left: 20%; padding-top: 60px; }
 
@@ -14,7 +17,7 @@
 	#header > #titleDiv { width: 85%; height: 100%; float: right; }
 	#header > #titleDiv > #title { font-weight: 600; }
 
-	#content { width: 60%; height: 500px; margin-left: 20%; margin-bottom: 30px; padding: 0 20px 20px 20px; overflow: hidden; }
+	#content { width: 60%; height: 300px; margin-left: 20%; margin-bottom: 30px; padding: 0 20px 20px 20px; overflow: hidden; }
 
 	#content > #contentTitle { font-size: 1.5em; font-weight: 600; }
 	#content > #contentContent { font-size: 1.5em; margin-left: 10px; height: 450px; }
@@ -32,4 +35,6 @@
 	#commentDiv > .commentList { width: 100%; height: auto; background-color: #ddd; padding: 10px; margin-bottom: 10px; border-radius: 20px; }
 	#commentDiv > .commentList > #commentID { font-weight: 600; margin-bottom: 0px !important; margin-top: 10px !important; }
 	#commentDiv > .commentList > #commentContent { font-size: 1.5em; margin-top: 10px !important; }
+
+
 </style>
