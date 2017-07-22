@@ -5,7 +5,8 @@
 
 	hr { width: 60%; }
 	textarea { width: 100% !important; margin: 10px 0 0 0 !important; }
-	
+	body { background-image: url("../image/detail_bg.jpg"); }
+
 	#submitBtn { float: right; margin-bottom: 10px; }
 
 	#header { width: 60%; height: 200px; margin-left: 20%; padding-top: 60px; }
