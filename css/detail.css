@@ -28,4 +28,8 @@
 	#buttonDiv > button { float: right; margin-left: 10px; }
 	#buttonDiv > button > .glyphicon { color: red; margin-right: 5px; filter: grayscale(100); }
 	
+	#commentDiv { width: 60%; margin-left: 20%; display: none; }
+	#commentDiv > .commentList { width: 100%; height: auto; background-color: #ddd; padding: 10px; margin-bottom: 10px; border-radius: 20px; }
+	#commentDiv > .commentList > #commentID { font-weight: 600; margin-bottom: 0px !important; margin-top: 10px !important; }
+	#commentDiv > .commentList > #commentContent { font-size: 1.5em; margin-top: 10px !important; }
 </style>

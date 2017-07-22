@@ -2,6 +2,8 @@ $(function() {
 	var isRecommended1 = false;
 	var isRecommended2 = false;
 
+	var isComment = false;
+
 	$("button:nth-child(2)").mouseover(function() {
 		$("button:nth-child(2) .glyphicon").css("filter", "grayscale(0)");
 	}).mouseout(function() {
@@ -24,5 +26,15 @@ $(function() {
 			isRecommended2 = false;
 		else
 			isRecommended2 = true;
+	});
+
+	$("#comment").click(function() {
+		if(isComment) {
+			$("#commentDiv").hide(500);
+			isComment = false;
+		} else {
+			$("#commentDiv").show(500);
+			isComment = true;
+		}
 	});
 });
