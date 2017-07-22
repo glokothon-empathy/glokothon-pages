@@ -1,0 +1,21 @@
+* { margin: 0; padding: 0; }
+
+hr { width: 60%; margin-bottom: 50px !important; }
+
+body {  background-image: url("../img/review_bg.jpg"); background-size: cover; }
+
+.bold { font-weight: bold; }
+
+#superDiv { width: 100%; height: 830px; margin-top: 50px; padding-top: 10px; background-color: rgba(0, 0, 0, 0.5); }
+
+#reviewDiv { width: 60%; margin-left: 20%; margin-top: 50px; }
+
+#title { color: white; }
+
+#reviewDiv > #reviewList { width: 100%; }
+#reviewDiv > #reviewList > .reviewContent { width: 100%; height: 150px; cursor: pointer; margin-bottom: 30px; padding: 10px; background-color: rgba(0, 0, 0, 0.3); border-radius: 30px; }
+#reviewDiv > #reviewList > .reviewContent > .reviewImgDiv { float: left; width: 8%; box-shadow: 2px 2px 1px gray; padding-top: 8%; border-radius: 50%; margin-left: 20px; margin-top: 20px; background-image: url("../img/bg.jpg"); background-size: cover; }
+#reviewDiv > #reviewList > .reviewContent > .reviewInfo { float: right; width: 88%; }
+#reviewDiv > #reviewList > .reviewContent > .reviewInfo > #reviewTitle { font-weight: 600; font-size: 2em; margin-top: 30px; color: lightgray; }
+#reviewDiv > #reviewList > .reviewContent > .reviewInfo > #reviewAuthor { font-size: 1em; float: left; margin-right: 30px; color: lightgray; }
+#reviewDiv > #reviewList > .reviewContent > .reviewInfo > #reviewLocation { font-size: 1em; float: left; color: lightgray; }
